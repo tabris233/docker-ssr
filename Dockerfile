@@ -12,7 +12,7 @@ RUN apk update && \
     apk --no-cache upgrade && \
     apk --no-cache add libsodium git python && \
     cd ~ && \
-    git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
+    git clone -b manyuser https://github.com/zxk114/shadowsocksr.git
 
 EXPOSE $SSR_SERVER_PORT
 
