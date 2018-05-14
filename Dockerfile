@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-LABEL maintainer="https://github.com/starriv"
+LABEL maintainer="https://github.com/zxk114"
 
 ENV SSR_SERVER_PORT 6666
 ENV SSR_PASSWORD zxk6666
