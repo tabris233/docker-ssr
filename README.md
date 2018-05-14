@@ -4,6 +4,7 @@
 ### 0x1: 直接使用
 
 docker pull starriv/shadowsocksr
+
 docker run starriv/shadowsocksr:latest -name shadowsocksr -p 50080:50080
 
 ### 0x2: 从当前项目构建(docker-native)
