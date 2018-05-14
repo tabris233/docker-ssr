@@ -2,7 +2,7 @@ version: '3'
 services:
   shadowsocksr:
     build: .
-    image: shadowsocksr
+    image: zxk114/shadowsocksr
     container_name: shadowsocksr_server
     ports:
       - "6666:6666"
