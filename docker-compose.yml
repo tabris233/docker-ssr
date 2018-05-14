@@ -1,0 +1,9 @@
+version: '3'
+services:
+  shadowsocksr:
+    build: .
+    image: shadowsocksr
+    container_name: shadowsocksr_server
+    ports:
+      - "6666:6666"
+    env_file: .env
