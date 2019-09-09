@@ -19,6 +19,6 @@ sudo docker run -d --name shadowsocksr -p 本地端口:容器端口
 ```shell
 git clone https://github.com/zxk114/docker-ssr.git
 cd docker-ssr
-# 修改 .env 参数
+# 修改 .env 参数   和  docker-compose。yml中的 port部分
 docker-compose up -d --build
 ```
